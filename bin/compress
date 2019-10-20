@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+set -x
+
+top=$(dirname $0)/..
+
+
+${top}/venv/bin/python3 ${top}/compress.py

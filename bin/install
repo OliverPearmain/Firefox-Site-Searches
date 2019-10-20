@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+set -x
+
+top=$(dirname $0)/..
+
+python3 -m venv ${top}/venv
+
+${top}/venv/bin/python3 -m pip install --index-url=http://efx-nexus.systems.uk.hsbc:8083/nexus/repository/pypi.proxy/simple --trusted-host efx-nexus.systems.uk.hsbc  -r requirements.txt
