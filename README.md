@@ -9,7 +9,7 @@ Modify the outputted `search.json.mozlz4.decompressed` in your Firefox profile f
 
 Close Firefox (not certain this is necessary but probably better safe than sorry)
 
-Run ``./bin/compress`
+Run `./bin/compress`
 
 Restart Firefox and the changes to search should be loaded
 
